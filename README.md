@@ -5,13 +5,18 @@
 # Tableau project
 
 ## Content
-- [Project Description](#project-description)
-- [Questions & Hypotheses](#questions-hypotheses)
-- [Dataset](#dataset)
-- [Database](#database)
-- [Workflow](#workflow)
-- [Organization](#organization)
-- [Links](#links)
+
+- Project Description
+- Questions & Hypotheses
+- Datasets
+- Datasets organisation
+- Tableau organisation
+- Workflow
+- Results
+- Problems
+- Organisation
+- Links
+
 
 ## Project Description
 
@@ -36,15 +41,15 @@ In order to generate the Tableau visualisation, two datasets from https://www.wo
 - It contains the % of women in the national Parliaments throughout the years
 
 
-## Datasets organization
+## Datasets organisation
 
 In order to merge and clean the datasets and get them ready for Tableau, Python and Pandas library were used. Both files were imported into python jupyter notebook, cleaned and merged after cleaning. I decided to analyse only the last 5 years since the temporal descripencies in the % of women in the government throughout the years can be very strong and the main goal was to check the correlation with GDP. Therefore, only the years 2015 to 2019 were selected to export into CSV to posteriori import into Tableau. The name of the CSV file is tableau_data. 
 
 
 
-## Tableau organization
+## Tableau organisation
 
-The Tableau story "Women in Parliament and GDP" is organized as follows:
+The Tableau story "Women in Parliament and GDP" is organised as follows:
 
 - Storypoint 1 "Distribution map 2019": Map with the distribuition of the metrics last year
 - Storypoint 2 "Scatter plot 2019": Scatter plot to correlate both metrics last year
@@ -72,7 +77,7 @@ The results didn´t prove the initial hypotheses: no correlation was found betwe
 The problems started with the dataset gathering. In the beginning, the goal was a much more complex database with four databases from different sources. Unfortunately, that would take a lot of time away from Tableau into data cleaning, which was not the goal of the project. Regarding Tableau itself, sometimes it was hard to recreate positive outcomes, too much trial and error. 
 
 
-## Organization
+## Organisation
 
 The repository is organised in:
 

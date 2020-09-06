@@ -25,7 +25,7 @@ The goal of the project was to analyse a potential correlation between the perce
 
 ## Questions & Hypotheses
 
-The main hypotheses to tackle was the existence of a correlation between percentage of women in the Parliamente and GDP worldwide. With these two indicators, a more general inference could bloom that women emancipation, equality and governmental representation could be connected to the level of development of the country, in this case evaluated by the GDP. It was also relevant to compare the two metrics individually in a worldwide context and analyse their discrepencies. The focus was to evaluate the most recent year 2019 but still checking if there were significant discrepancies in the last 5 years to be considered on the analysis. Then, to focus the analysis on the countries that stand out in both metrics, following a study case mindset.
+The main hypotheses to tackle was the existence of a correlation between percentage of women in the Parliamente and GDP worldwide. With these two indicators, a more general inference could bloom that women emancipation, equality and governmental representation could be connected to the level of development of the country, in this case evaluated by the GDP. It was also relevant to compare the two metrics individually in a worldwide context and analyse their discrepencies. The focus was to evaluate the most recent year 2019 and also to analyse the last 5 years, to check if an average of them could be taken into analysis - no major discrepancies supported the hypotheses that their average could be used. Then, to focus the analysis on the countries that stand out in both metrics for a correlation, following a study case mindset.
 
 
 
@@ -55,15 +55,19 @@ The Tableau story "Women in Parliament and GDP" is organised as follows:
 - Storypoint 2 "Scatter plot 2019": Scatter plot to correlate both metrics last year
 - Storypoint 3 "Year evolution GDP 2015-2019": Line plot to check in there are strong discrepancies over the last 5 years in countries' GDP
 - Storypoint 4 "Year evolution women in parliament 2015-2019": Line plot to check in there are strong discrepancies over the last 5 years in percentage of women in national parliaments by country
-- Storypoint 5 "Table year evolution women in parliament": table not used in the story but as reference since it could be usefel for future variance studies
-- Storypoint 6 "Box plot GDP 2019": Box plot to confirm outliers, in this case to point out the richest countries in 2019
-- Storypoint 7 "Box plot women in parliament 2019": Box plot to confirm outliers, in this case regarding women in parliament in 2019
-- Storypoint 8 "Top 3 comparison": Analysis of the three countries with the highest values on each of the metrics, to have some relevant clustering/case study that makes the results more "readable" to stakeholders.
+- Storypoint 5 "Country analysis by metric chosen": dynamic bar plot, using averages of the last 5 years now supported by the former storypoints, where the countries and the metric to analyse can be chosen
+- Storypoint 6 "Dashboard Top women and top GDP": Dashboard connected to another two worksheets, where the user can select the amount of countries to analyse and it gives the values sorted DESC. Created so that the user can manipulate the values wanted - although a top 3 study case comes in the end of the story
+- Storypoint 7 "Box plot GDP 2015-2019": Box plot to confirm outliers, in this case to point out the richest countries. 
+Box plot created 
+- Storypoint 8 "Box plot women in parliament 2015-2019": Box plot to confirm outliers, in this case regarding women in parliament
+- Storypoint 9 "Top 3 comparison": Analysis of the three countries with the highest values on each of the metrics, to have some relevant clustering/case study that makes the results more "readable" to stakeholders.
+
+There are also 3 additional supporting worksheets to the story.
 
 
 ## Workflow
 
-The workflow was very streamlined: first selectd data of a topic of interest. The topic desired would have to be in the social-environmental field. Second goal was to find CSV or XLS files that were fitting the topic goal. The goal was also to practice some data cleaning in Pandas, therefore to find at least two datasets with a topic that could be correlated. After finding them, the next step was to clean them, select the data of interest in Pandas and export the file. After that, the file was ready to use in Tableau. Already in Tableau, the starting point was a story set up and 8 new worksheets were created, 7 of them associated to the story, one just for reference. Before starting the story, I delineated the goals with each story point and started plotting according to them, as described beforehand. On Tableau, the goal was to try the different concepts learned in the lectures and labs.
+The workflow was very streamlined: first selectd data of a topic of interest. The topic desired would have to be in the social-environmental field. Second goal was to find CSV or XLS files that were fitting the topic goal. The goal was also to practice some data cleaning in Pandas, therefore to find at least two datasets with a topic that could be correlated. After finding them, the next step was to clean them, select the data of interest in Pandas and export the file. After that, the file was ready to use in Tableau. Already in Tableau, the starting point was a story set up and 12 new worksheets were created, 9 of them directly linked to the story, one just for reference and other two connected to the dashboard.  Before starting the story, I delineated the goals with each story point and started plotting according to them, as described beforehand. On Tableau, the goal was to try the different concepts learned in the lectures and labs.
 
 
 ## Results
